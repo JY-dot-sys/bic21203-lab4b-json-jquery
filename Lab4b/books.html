@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab 4b - Books JSON</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #f5f7fb;
+            color: #24324a;
+            max-width: 720px;
+            margin: 60px auto;
+            padding: 24px
+        }
+
+        main {
+            background: white;
+            padding: 30px;
+            border-radius: 16px;
+            box-shadow: 0 8px 30px #172b4d16
+        }
+
+        button {
+            background: #2563eb;
+            color: white;
+            border: 0;
+            padding: 12px 20px;
+            border-radius: 8px;
+            cursor: pointer
+        }
+
+        input {
+            padding: 11px;
+            border: 1px solid #aaa;
+            border-radius: 7px
+        }
+
+        p,
+        li {
+            line-height: 1.7
+        }
+    </style>
+    <script defer src="books.js"></script>
+</head>
+
+<body>
+    <main>
+        <h1>Lab 4b - Books JSON</h1>
+        <p id="status" role="status" aria-live="polite">Loading books...</p>
+        <h2>First Book Title</h2>
+        <p id="firstTitle"></p>
+        <h2>Second Book Author</h2>
+        <p id="secondAuthor"></p>
+        <h2>Genres by Book</h2>
+        <ul id="genresList"></ul>
+    </main>
+</body>
+
+</html>
